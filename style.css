@@ -26,6 +26,8 @@ body{
 
 .container{
     padding: 0.5rem;
+    border-radius: 15px;
+    margin: 0.5rem;
 }
 
 .heading{
@@ -58,8 +60,12 @@ body{
 
 .main{
     display: flex;
+}
+
+.maintext{
+    background-color: grey;
     
-    flex-wrap: wrap;
+    
 }
 
 .menu{
@@ -68,6 +74,4 @@ body{
     gap: 1rem;
     align-items: flex-start;
     flex-direction: column;
-    border-radius: 10%;
-
 }
