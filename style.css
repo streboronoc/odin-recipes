@@ -28,6 +28,10 @@ body{
     padding: 0.5rem;
 }
 
+.head{
+    padding-left: 2rem;
+}
+
 .home{
     outline: none;
     padding: 0.5rem;
@@ -54,7 +58,7 @@ body{
 
 .main{
     display: flex;
-    align-items: flex-start;
+    
     flex-wrap: wrap;
 }
 
